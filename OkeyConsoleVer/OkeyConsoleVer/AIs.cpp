@@ -25,7 +25,7 @@ void playerAI::exec(GameManager* gm){
 	gm->throwCard(cd+1);
 	cout << endl;
 	for (int i = 0; i < 14; i++){
-		cout << (cd + i)->number << ":" << (cd + i)->color << " ";
+		cout << (cd + i)->color <<":" << (cd + i)->number << " ";
 		if (i == 6) cout << endl;
 	}
 	cout << endl<<endl;
