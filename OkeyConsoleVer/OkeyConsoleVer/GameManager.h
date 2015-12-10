@@ -11,9 +11,9 @@ public:
 	Card* getHand();
 	Card takeCard(int command);
 	void throwCard(Card* cd);
-private:
 	int CurrentTurn;
 	Card hands[4][14];
+private:
 	Card ontable;
 	void deal();
 	CardStack* cardstack;

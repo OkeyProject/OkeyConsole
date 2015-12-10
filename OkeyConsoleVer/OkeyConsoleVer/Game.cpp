@@ -7,7 +7,6 @@ Game::Game(){
 	win = false;
 	run();
 };
-
 void Game::run(){
 	GameManager* gm = new GameManager();
 	playerAI pi;
