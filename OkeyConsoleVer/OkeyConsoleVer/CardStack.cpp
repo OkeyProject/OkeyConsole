@@ -15,16 +15,16 @@ CardStack::CardStack(){
 			switch (j)
 			{
 			case 0:
-				cards[index].color = "black";
+				cards[index].color = "Black";
 				break;
 			case 1:
-				cards[index].color = "yellow";
+				cards[index].color = "Yellow";
 				break;
 			case 2:
-				cards[index].color = "red";
+				cards[index].color = "Red";
 				break;
 			case 3:
-				cards[index].color = "blue";
+				cards[index].color = "Blue";
 				break;
 			default:
 				break;
