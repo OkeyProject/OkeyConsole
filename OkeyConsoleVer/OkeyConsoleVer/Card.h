@@ -8,7 +8,7 @@ using namespace std;
 class Card{
 public:
 	int number = 0;
-	string color = "white";
+	string color = "White";
 };
 
 #endif
